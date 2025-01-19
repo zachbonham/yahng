@@ -11,6 +11,8 @@ import yahng
 pub fn main() {
   let name = yahng.get_haiku_name()
   io.debug(name)
+
+  // ie. witty-djinn
 }
 ```
 
