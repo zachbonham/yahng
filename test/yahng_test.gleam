@@ -21,8 +21,3 @@ pub fn has_separator_test() {
   |> string.contains("-")
   |> should.be_true
 }
-
-pub fn has_failing_test() {
-  1
-  |> should.equal(2)
-}
